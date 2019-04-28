@@ -15,4 +15,9 @@ public class HomeController {
     public String selectMethod() {
         return "select-method";
     }
+
+    @RequestMapping("/loginSuccess")
+    public String loginSuccess() {
+        return "login-success";
+    }
 }
